@@ -31,6 +31,30 @@ margin: 0 auto;
 .section{
 width: 50%;
 }
+.project__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.certificate__img {
+  width: 400px;
+  margin-top: 10px;
+}
+.img__project {
+  width: 400px;
+}
+.project__link{
+  margin-bottom: 30px;
+}
+.project__title{
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.links{
+  text-decoration: none;
+  color: black;
+  }
+
 @media (max-width: 768px){
 .section{
   width: 100%;
